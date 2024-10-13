@@ -15,9 +15,9 @@ document.getElementById('bmi-form').addEventListener('submit', function (e) {
     let status = '';
     if (bmi < 18.5) {
         status = 'Недостаточный вес';
-    } else if (bmi >= 18.5 && bmi < 24.9) {
+    } else if (bmi >= 19 && bmi < 25) {
         status = 'Нормальный вес';
-    } else if (bmi >= 25 && bmi < 29.9) {
+    } else if (bmi >= 25.1 && bmi < 29.9) {
         status = 'Избыточный вес';
     } else {
         status = 'Ожирение';
